@@ -1,7 +1,7 @@
 import pyttsx3
 engine = pyttsx3.init()
-name = input("entre you name: ")
-engine.say(f"Bonjour {name}")
+name = input("What You Name: ")
+engine.say(f"Hello {name}")
 engine.runAndWait()
 
 
